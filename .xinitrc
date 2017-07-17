@@ -8,7 +8,11 @@ xrdb < $HOME/.Xdefaults
 setxkbmap us
 #setxkbmap gb
 # conky --display :0.1 &
-VBoxClient-all
+VBoxClient --clipboard
+VBoxClient --display
+VBoxClient --seamless
+
+
 clipit &
 # remmina -i &
 feh --bg-fill  ~/backdrops/default.png
