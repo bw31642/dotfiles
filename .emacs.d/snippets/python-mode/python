@@ -1,0 +1,46 @@
+# name: Python Boiler Plate
+# key: python
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#!/usr/bin/python
+#-------------------------------------------------------------------------------
+# title:       $1        
+# description: $2
+# author:      ${3:Brian Watts}
+# date:        ${4:`(format-time-string "%d-%m-%Y")`}
+#-------------------------------------------------------------------------------
+import sys
+import os
+import re
+import pprint
+from optparse import OptionParser
+
+def mylog(msg):
+#{{
+    d = time.strftime("%b %d %X")
+    print "%s | %s" % (d,msg)
+#}}
+
+def main():
+#{{
+    verbose = 1
+    version = "%prog 1.0"
+    configfile =""
+    
+    usage = "usage: %prog --help"
+    # parser = OptionParser(usage=usage,version=version)
+    # parser.add_option("", "--config", dest="configfile",
+    #                   help="read ssh commands from config file FILENAME")
+
+    # (options, args) = parser.parse_args()
+
+    # if (not options.configfile):
+    #     print "error, config file is mandatory"
+    #     parser.print_usage()
+    #     sys.exit(1)
+
+    # if (not os.path.isfile(options.configfile)):
+    #     print "error, can't open file %s for reading" % options.configfile
+    #     sys.exit(1)
+
+#}}

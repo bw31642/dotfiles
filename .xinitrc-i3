@@ -1,0 +1,16 @@
+
+exec > $HOME/.x.log 2>&1
+##
+#dbus-launch --sh-syntax --exit-with-session
+# start-pulseaudio-x11
+xrandr --dpi 96
+xrdb < $HOME/.Xdefaults
+setxkbmap us
+#setxkbmap gb
+VBoxClient-all
+clipit &
+(sleep 3 ; bbpager ) &
+# compton --config ~/.compton.conf &
+feh --bg-fill  ~/backdrops/default.png
+(sleep 3 ; conky ) &
+i3

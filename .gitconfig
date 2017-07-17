@@ -1,0 +1,12 @@
+[alias]
+        s = status 
+        u = status -uall
+        h = log --pretty=format:\"%h %ad | %an | %Cblue%d%Creset %s\" --date=short
+        n = log --name-only --pretty=format:\"%C(magenta)%h %ad %C(yellow)%d%Creset %s\" --date=short
+        g = log --graph --full-history --all --pretty=format:\"%h %ad%x09%an|%x09%C(yellow)%d%Creset%x20%s\" --date=short
+        b = show-branch
+        co = checkout
+
+[user]
+        email = brian.watts@virginmedia.co.uk
+	name = Brian Watts

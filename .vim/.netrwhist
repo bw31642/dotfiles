@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/bwatts/wrapper/cloud-wrapper'
+let g:netrw_dirhist_2='/home/bwatts'
+let g:netrw_dirhist_3='/home/w7654402/.fluxbox'
+let g:netrw_dirhist_4='/home/w7654402/.bbtools'
+let g:netrw_dirhist_5='/home/bwatts/src/ttyclock'
+let g:netrw_dirhist_6='/home/bwatts/src/ttyclock/src'
+let g:netrw_dirhist_7='/home/bwatts/src/ttyclock'
+let g:netrw_dirhist_8='/home/bwatts/src/ttyclock/src'

@@ -1,0 +1,120 @@
+! Parts (C) 1996 By Greg J. Badros <gjb@cs.duke.edu>
+! You may use this file as specified under the GNU General Public License
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! emacs, xemacs
+
+!emacs*Background: Black
+!emacs*Foreground: DarkGray
+emacs*pointerColor: White
+emacs*cursorColor: Red
+emacs*bitmapIcon: on
+emacs*font: Ubuntu Mono 10
+emacs.geometry: 90x46
+!emacs.geometry:		81x40+20+20
+!Emacs.pane.menubar.font: 9x15
+!Emacs.pane.menubar.background: darkGrey
+!Emacs.pane.menubar.foreground: black
+!Emacs*menubar.margin: 0
+!Emacs*shadowThickness: 1
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! xterm (and friends)
+
+XTerm*VT100.geometry: 80x30
+XTerm*font: 9x15
+!XTerm*faceName: 9x15
+!XTerm*faceSize: 9
+XTerm*highlightSelection:  true
+! Uncomment this to use color for the bold attribute
+XTerm*VT100*colorBDMode:  on
+XTerm*VT100*colorBD:  blue
+! Uncomment this to use color for underline attribute
+XTerm.VT100*colorULMode:  on
+XTerm.VT100*underLine:  off
+XTerm*VT100*colorUL:  magenta
+! Uncomment this to display the scrollbar 
+XTerm*scrollBar:  true
+xterm*foreground: darkgray
+xterm*background: #222222
+
+! This resource specifies whether or not to ignore the 'alternate screen'
+! of applications such as vi.  When it is on, these applications will restore
+! the contents of the screen when they are exited to what they were before
+! they were started.  When it is off, the contents of vi will remain on the
+! screen after the program is quit.
+XTerm.VT100.titeInhibit:  true
+
+!                         !     %     -     .
+XTerm*charClass:	  33:48,37:48,45:48,46:48
+
+! Uncomment this to turn off color mode in your xterms
+!XTerm.VT100*colorMode:  on
+XTerm.VT100*dynamicColors:  on
+
+! Number of lines of scrollback to save
+XTerm*saveLines:	1500
+
+xterm*reverseWrap:	true
+xterm*backarrowKey:     true
+
+visualBell:		true
+scrollTtyOutput:	False
+scrollKey:		True
+Scrollbar.JumpCursor:	True
+
+! rxvt*loginShell:true
+! rxvt*transparent:true
+! rxvt*shading:40
+rxvt*background:#222222
+! rxvt*foreground:gray
+! rxvt*scrollBar:true
+! rxvt*scrollBar_right:true
+! rxvt*transpscrollbar:false
+! rxvt*saveLines:32767
+! rxvt*font:*-*-fixed-medium-r-normal--*-110-*-*-*-*-iso8859-1
+! rxvt*boldFont:*-*-fixed-bold-r-normal--*-*-110-*-*-*-*-iso8859-1
+
+
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: true
+Xft.antialias: true
+Xft.rgba: rgb
+!Xft.dpi: 160
+
+URxvt*visualBell:true
+URxvt.font: xft:DeJaVu Sans Mono-9
+URxvt.urgentOnBell: true
+URxvt.letterSpace: -1
+URxvt*loginShell:true
+URxvt*transparent:false
+URxvt*shading:20
+URxvt*background:#222222
+URxvt*foreground:gray
+URxvt*scrollBar:false
+URxvt*scrollBar_right:true
+!URxvt*transpscrollbar:false
+URxvt*saveLines:32767
+!URxvt*font: 9x15
+URxvt.color0: #222222
+URxvt.color1: #B21818
+URxvt.color2: #18B218
+URxvt.color3: #B26818
+URxvt.color4: #5858B2
+URxvt.color5: #B218B2
+URxvt.color6: #18B2B2
+URxvt.color7: #B2B2B2
+URxvt.colorBD: #FFFFFF
+URxvt.color8: #686868
+URxvt.color9: #FF5454
+URxvt.color10: #54FF54
+URxvt.color11: #FFFF54
+
+rofi.color-enabled: true
+rofi.color-window: #393939, #393939, #268bd2
+rofi.color-normal: #393939, #ffffff, #393939, #268bd2, #ffffff
+rofi.color-active: #393939, #268bd2, #393939, #268bd2, #205171
+rofi.color-urgent: #393939, #f3843d, #393939, #268bd2, #ffc39c
+

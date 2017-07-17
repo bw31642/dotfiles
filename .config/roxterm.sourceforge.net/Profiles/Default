@@ -1,0 +1,9 @@
+[roxterm profile]
+color_term=xterm-256color
+term=xterm-256color
+tab_pos=4
+always_show_tabs=0
+hide_menubar=1
+scrollbar_pos=0
+saturation=0.849057
+colour_scheme=Tango

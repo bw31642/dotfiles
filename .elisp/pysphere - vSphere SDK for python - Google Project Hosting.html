@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://code.google.com/p/pysphere/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <script src="./pysphere - vSphere SDK for python - Google Project Hosting_files/cb=gapi.loaded_1" async=""></script><script src="./pysphere - vSphere SDK for python - Google Project Hosting_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./pysphere - vSphere SDK for python - Google Project Hosting_files/plusone.js" gapi_processed="true"></script><script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = "ABZ6GAfC0lonfkGgvG9G3pJP7NyQ6ilH-A:1421427986120";
+ 
+ 
+ var CS_env = {"assetHostPath": "http://www.gstatic.com/codesite/ph", "loggedInUserEmail": "bw31642@gmail.com", "profileUrl": "/u/102695238809237982895/", "assetVersionPath": "http://www.gstatic.com/codesite/ph/18133036155640238800", "projectHomeUrl": "/p/pysphere", "projectName": "pysphere", "relativeBaseUrl": "", "token": "ABZ6GAfC0lonfkGgvG9G3pJP7NyQ6ilH-A:1421427986120", "domainName": null};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-26981031-1'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script><script type="text/javascript" async="" src="./pysphere - vSphere SDK for python - Google Project Hosting_files/ga.js"></script>
+ 
+ 
+ <title>
+ pysphere -
+ 
+ 
+ vSphere SDK for python - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="./pysphere - vSphere SDK for python - Google Project Hosting_files/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="./pysphere - vSphere SDK for python - Google Project Hosting_files/ph_detail.css">
+ 
+ 
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/18133036155640238800/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ .psicon-container {
+ min-width:24px;
+ }
+
+ 
+ </style>
+<style type="text/css"></style></head>
+<body class="t1" cz-shortcut-listen="true">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ 
+ 
+ <a href="http://code.google.com/p/pysphere/#" id="multilogin-dropdown" onclick="return false;"><u><b>bw31642@gmail.com</b></u> <small>▼</small></a>
+ 
+ 
+ | <a href="http://code.google.com/u/102695238809237982895/" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>▼</small></a>
+ | <a href="http://code.google.com/u/102695238809237982895/" onclick="_CS_click(&#39;/gb/ph/profile&#39;);" title="Profile, Updates, and Settings"><u>Profile</u></a>
+ | <a href="https://www.google.com/accounts/Logout?continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysphere%2F" onclick="_CS_click(&#39;/gb/ph/signout&#39;);"><u>Sign out</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0" itemscope="" itemtype="http://schema.org/CreativeWork">
+ <tbody><tr style="height: 58px;">
+ 
+ 
+ 
+ <td id="plogo">
+ <link itemprop="url" href="http://code.google.com/p/pysphere">
+ <a href="./pysphere - vSphere SDK for python - Google Project Hosting_files/pysphere - vSphere SDK for python - Google Project Hosting.html">
+ 
+ <img src="./pysphere - vSphere SDK for python - Google Project Hosting_files/defaultlogo.png" alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="./pysphere - vSphere SDK for python - Google Project Hosting_files/pysphere - vSphere SDK for python - Google Project Hosting.html"><span itemprop="name">pysphere</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link" href="./pysphere - vSphere SDK for python - Google Project Hosting_files/pysphere - vSphere SDK for python - Google Project Hosting.html"><span itemprop="description">vSphere SDK for python</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="http://code.google.com/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects">
+ </form>
+ 
+ </td></tr>
+ </tbody></table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="./pysphere - vSphere SDK for python - Google Project Hosting_files/pysphere - vSphere SDK for python - Google Project Hosting.html" class="tab active">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ <a href="http://code.google.com/p/pysphere/downloads/list" class="tab ">Downloads</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="http://code.google.com/p/pysphere/w/list" class="tab ">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="http://code.google.com/p/pysphere/issues/list" class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="http://code.google.com/p/pysphere/source/checkout" class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <div class="gtbc"></div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tbody><tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="subt">
+ <div class="st1">
+ <div class="isf">
+ <span class="inst1">
+ <a href="./pysphere - vSphere SDK for python - Google Project Hosting_files/pysphere - vSphere SDK for python - Google Project Hosting.html">Summary</a>
+ </span>
+ 
+ 
+ &nbsp;
+ <span class="inst3">
+ <a href="http://code.google.com/p/pysphere/people/list">People</a>
+ </span>
+ 
+ 
+ </div>
+</div>
+
+ </td>
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</tbody></table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol">
+
+ 
+
+
+
+
+
+<table width="100%">
+ <tbody><tr class="pscontent">
+ <td class="pscolumnl">
+ 
+ <div class="phead">Project Information</div>
+ 
+ 
+ 
+ <div class="psicon">
+ <div class="psicon-container goog-inline-block">
+ <img width="15" height="15" id="star_img" title="Click to star project" src="./pysphere - vSphere SDK for python - Google Project Hosting_files/star_off.gif" style="cursor:pointer; float:right" onclick="_CS_toggleStar(this,
+ {&#39;scope&#39;: &#39;projects&#39;,
+ &#39;user&#39;: &#39;_CURRENT_USER&#39;,
+ &#39;item&#39;: &#39;pysphere&#39;
+ },
+ true,
+ &#39;&#39;,
+ &#39;&#39;,
+ &#39;&#39;,
+ &#39;star_count&#39;,
+ &#39;plural&#39;);">
+ </div>
+ <span>
+ Starred by <span id="star_count">130</span>&nbsp;user<span id="plural">s</span>
+ </span>
+ </div> 
+ 
+ <ul class="pslist">
+ 
+ <li class="psmeta">
+ <a href="http://code.google.com/p/pysphere/feeds">Project feeds</a>
+ </li>
+ <li class="psgap">
+ 
+ 
+ 
+ </li><li class="psmeta"><b>Code license</b></li>
+ <li class="psmeta">
+ <a href="http://opensource.org/licenses/BSD-3-Clause" rel="nofollow">New BSD License</a>
+ 
+ </li>
+ <li class="psgap">
+ 
+ 
+ 
+ 
+ 
+ 
+ </li><li class="psmeta">
+ <span id="project_labels">
+ <b>Labels</b><br>
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:Python">Python</a>, 
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:Virtual">Virtual</a>, 
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:API">API</a>, 
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:SDK">SDK</a>, 
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:vsphere">vsphere</a>, 
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:vmware">vmware</a>, 
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:ESX">ESX</a>, 
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:ESXi">ESXi</a>, 
+ 
+ <a class="label" href="http://code.google.com/hosting/search?q=label:VirtualCenter">VirtualCenter</a>
+ 
+ </span>
+ </li>
+ <li class="psgap">
+ 
+ 
+ </li></ul>
+ <div class="psicon">
+ <div class="psicon-container goog-inline-block">
+ <div style="float:right" class="SPRITE_people-y16 goog-inline-block vt"></div>
+ </div>
+ <span><b>Members</b></span>
+ </div>
+ <ul class="pslist">
+ 
+ 
+ 
+ 
+
+ <a class="userlink" href="http://code.google.com/u/108538927849234469142/">argo...@gmail.com</a>
+ 
+ 
+ 
+ <li class="psmeta">
+ <a href="http://code.google.com/p/pysphere/people/list">2 committers</a>
+ </li>
+ 
+ 
+ <li class="psgap">
+ 
+ 
+ </li></ul>
+ 
+ 
+ <div class="phead pfeatured">Featured</div>
+ 
+ <div class="psicon">
+ <div class="psicon-container goog-inline-block">
+ <div style="float:right" class="SPRITE_filedownload-g16 goog-inline-block vt"></div>
+ </div>
+ <span><b>Downloads</b></span>
+ </div>
+ <ul class="pslist">
+ 
+ <li class="psmeta nowrap">
+ <a title="Download" href="http://pysphere.googlecode.com/files/pysphere-0.1.8.win32.exe" onclick="_gaq.push([&#39;siteTracker._trackEvent&#39;, &#39;Download - Downloaded&#39;, &#39;//pysphere.googlecode.com/files/pysphere-0.1.8.win32.exe&#39;, &#39;Type-Installer, OpSys-Windows, Featured&#39;]);_gaq.push([&#39;projectTracker._trackEvent&#39;, &#39;Download - Downloaded&#39;, &#39;//pysphere.googlecode.com/files/pysphere-0.1.8.win32.exe&#39;, &#39;Type-Installer, OpSys-Windows, Featured&#39;]);">
+ </a>
+ <a href="http://code.google.com/p/pysphere/downloads/detail?name=pysphere-0.1.8.win32.exe" title="PySphere 0.1.8 release (Windows Executable)">pysphere-0.1.8.win32.exe</a>
+ </li>
+ 
+ <li class="psmeta nowrap">
+ <a title="Download" href="http://pysphere.googlecode.com/files/pysphere-0.1.8.zip" onclick="_gaq.push([&#39;siteTracker._trackEvent&#39;, &#39;Download - Downloaded&#39;, &#39;//pysphere.googlecode.com/files/pysphere-0.1.8.zip&#39;, &#39;Type-Archive, OpSys-All, Featured&#39;]);_gaq.push([&#39;projectTracker._trackEvent&#39;, &#39;Download - Downloaded&#39;, &#39;//pysphere.googlecode.com/files/pysphere-0.1.8.zip&#39;, &#39;Type-Archive, OpSys-All, Featured&#39;]);">
+ </a>
+ <a href="http://code.google.com/p/pysphere/downloads/detail?name=pysphere-0.1.8.zip" title="PySphere 0.1.8 release">pysphere-0.1.8.zip</a>
+ </li>
+ 
+ <li class="psmeta"><a href="http://code.google.com/p/pysphere/downloads/list">Show all »</a></li>
+ <li class="psgap">
+ </li></ul>
+ 
+ 
+ 
+ 
+ 
+ <div class="phead">Links</div>
+ <ul class="pslist" style="white-space:nowrap">
+ 
+ 
+ 
+ <li class="psmeta"><b>Groups</b></li>
+ 
+ <li class="psmeta">
+ <a href="http://groups.google.com/group/pysphere" rel="nofollow">Discussion group</a>
+ </li>
+ 
+ <li class="psgap">
+ 
+ </li></ul>
+ 
+ </td>
+ <td id="wikicontent" class="psdescription">
+ <h2><a name="PySphere"></a>PySphere <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background-position: initial initial; background-repeat: initial initial;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1421427308104" name="I0_1421427308104" src="./pysphere - vSphere SDK for python - Google Project Hosting_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div><a href="http://code.google.com/p/pysphere/#PySphere" class="section_anchor"></a></h2><p><strong>Python API for interaction with the vSphere Web Services SDK.</strong> </p><p>Among other operations, it provides easy interfaces to: </p><ul><li>Connect to VMWare's ESX, ESXi, Virtual Center, Virtual Server hosts </li><li>Query hosts, datacenters, resource pools, virtual machines </li><li>VM: Power on, power off, reset, revert to snapshot, get properties, update vmware tools, clone, migrate. </li><li>vSphere 5.0 Guest Operations: create/delete/move files and directories. Upload/download files from the guest system. List/start/stop processes in the guest system. </li><li>Create and delete snapshots </li><li>Hosts statistics and performance monitoring </li></ul><p></p><p>An of course, you can use it to access all the vSphere API through python. </p><p>It's built upon a slightly modified version of ZSI (that comes bundled-in) which makes it really fast in contrast to other python SOAP libraries that don't provide code generation. </p><h3><a name="Installation"></a>Installation<a href="http://code.google.com/p/pysphere/#Installation" class="section_anchor"></a></h3><p>The simplest way is using either easy_install or pip: </p><p><tt>easy_install -U pysphere</tt> </p><p>or </p><p><tt>pip install -U pysphere</tt> </p><p>Or you can find the source package and windows installer in the downloads section. To install it from the source package: </p><ol><li>Unzip the package </li><li>run: <tt>python setup.py install</tt> </li></ol><p></p><h3><a name="Quick_Example"></a>Quick Example<a href="http://code.google.com/p/pysphere/#Quick_Example" class="section_anchor"></a></h3><p>Here's how you power on a virtual machine. See the project's wiki with the full documentation. </p><pre class="prettyprint"><span class="kwd">from</span><span class="pln"> pysphere </span><span class="kwd">import</span><span class="pln"> </span><span class="typ">VIServer</span><span class="pln"><br><br>server </span><span class="pun">=</span><span class="pln"> </span><span class="typ">VIServer</span><span class="pun">()</span><span class="pln"><br>server</span><span class="pun">.</span><span class="pln">connect</span><span class="pun">(</span><span class="str">"my.esx.host.com"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"myusername"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"secret"</span><span class="pun">)</span><span class="pln"><br><br>vm </span><span class="pun">=</span><span class="pln"> server</span><span class="pun">.</span><span class="pln">get_vm_by_path</span><span class="pun">(</span><span class="str">"[datastore] path/to/file.vmx"</span><span class="pun">)</span><span class="pln"><br>vm</span><span class="pun">.</span><span class="pln">power_on</span><span class="pun">()</span></pre><h3><a name="Discussion_Group"></a>Discussion Group<a href="http://code.google.com/p/pysphere/#Discussion_Group" class="section_anchor"></a></h3><p>You can find a lot more examples and use cases in the <a href="http://groups.google.com/group/pysphere" rel="nofollow">discussion group</a>. </p>
+ </td>
+ </tr>
+</tbody></table>
+<script src="./pysphere - vSphere SDK for python - Google Project Hosting_files/prettify_core_compiled.js"></script>
+<script type="text/javascript">
+ prettyPrint();
+</script>
+
+ 
+ 
+ 
+ <script type="text/javascript" src="./pysphere - vSphere SDK for python - Google Project Hosting_files/ph_core.js"></script>
+ 
+ 
+ 
+ 
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="http://code.google.com/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="http://code.google.com/p/support/">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ 
+
+
+<iframe name="oauth2relay600331247" id="oauth2relay600331247" src="./pysphere - vSphere SDK for python - Google Project Hosting_files/postmessageRelay.html" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe><div class="menuDiv instance0" id="menuDiv-projects-dropdown" style="position: absolute; display: none; top: 19px; left: 834px;"><div class="menuCategory default" style="display: none;"></div><div class="menuCategory controls first"><hr class="menuSeparator"><a class="menuItem" href="http://code.google.com/hosting/" style="display: block;">Find open source projects...</a><a class="menuItem" href="http://code.google.com/hosting/createProject" style="display: block;">Create a project...</a></div></div><div class="menuDiv instance1" id="menuDiv-multilogin-dropdown" style="position: absolute; display: none; top: 19px; left: 674px;"><div class="menuCategory default first"><span class="menuText" style="display: block;"><b>bw31642@gmail.com</b></span></div><div class="menuCategory controls"><hr class="menuSeparator"><a class="menuItem" href="http://www.google.com/accounts/AddSession?service=code&continue=http%3A%2F%2Fcode.google.com%2Fp%2Fpysphere%2F" style="display: block;"><nobr>Sign in with another account...</nobr></a></div></div></body></html>

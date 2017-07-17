@@ -1,0 +1,6 @@
+/home/w7654402/dev/syslist/bin/queuerun.pl
+/home/w7654402/dev/syslist/bin/#queuerun.pl#
+/scpc:root@know-unixinfra-1:/app/unixts/syslist/bin/fetch.pl
+#_ascpc_broot@know-unixinfra-1_b_aapp_aunixts_asyslist_abin_afetch.pl#
+/scpc:know-unixinfra:/tmp/bash: cd: ~.: No such file or directory
+#_ascpc_bknow-unixinfra_b_atmp_abash_b cd_b ~._b No such file or directory#

@@ -1,0 +1,44 @@
+fbpager.alpha: 100
+fbpager.x: 2910
+fbpager.y: 940
+fbpager.workspace.height: 32
+fbpager.workspace.width: 32
+fbpager.numberOfRows: 3
+fbpager.workspacesPerRow: 3
+fbpager.followDrag: false
+fbpager.followMove: false
+fbpager.Title: false
+fbpager.changeWorkspaceButton: 1
+fbpager.raiseWindowButton: 8
+fbpager.lowerWindowButton: 9
+fbpager.closeWindowButton: 3 3 1
+fbpager.exitButton: 1 3 3
+fbpager.nextWorkspaceButton: 10
+fbpager.prevWorkspaceButton: 11
+#fbpager.moveInWorkspaceButton: 1
+fbpager.dragToWorkspaceButton: 2
+fbpager.align: LeftToRight
+fbpager.multiClickTime: 250
+fbpager.icons: false
+fbpager.windowBorderWidth: 1
+#
+# Colors
+#
+#fbpager.color: #ffffff
+#fbpager.color: #779dae
+#fbpager.windowColor: #000000
+#fbpager.focusedWindowColor: #444444
+#fbpager.windowBorderColor: #779dae
+#fbpager.borderColor: #000000
+#fbpager.currentBorderColor: #000000
+#fbpager.backgroundColor: black
+#fbpager.currentBackgroundColor: #3f3f3f
+
+fbpager.color: black
+fbpager.windowColor: gray
+fbpager.focusedWindowColor: white
+fbpager.windowBorderColor: black
+fbpager.backgroundColor: #252e35
+fbpager.currentBackgroundColor: lightgray
+fbpager.border.active.color: white
+fbpager.border.inactive.color: black

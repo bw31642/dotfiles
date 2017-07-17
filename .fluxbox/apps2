@@ -1,0 +1,20 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=fbpager)
+  [Deco]	{0x1c0}
+[end]
+[app] (name=urxvt) (class=URxvt)
+  [Layer]	{8}
+[end]
+[app] (name=console) (class=roxterm)
+  [Dimensions]  {754 512}
+#  [Position]    (UPPERLEFT) {616 286}
+  [Position]	(CENTER)	{0 0}
+  [Deco]    {0x1c0}
+  [Maximized]   {no}
+  [Fullscreen]  {no}
+  [Layer]   {8}
+  [Alpha]   {255}
+[end]

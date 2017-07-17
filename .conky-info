@@ -1,0 +1,42 @@
+conky.config = {
+    own_window = true,
+    own_window_type = 'override',
+	own_window_transparent = true,
+    own_window_class = 'Conky',
+    double_buffer = true,
+    alignment = 'bottom_left',
+    gap_x = 5,
+    gap_y = 50,
+    background = false,
+    border_width = 0,
+    cpu_avg_samples = 2,
+    default_color = 'white',
+    default_outline_color = 'white',
+    default_shade_color = 'white',
+    draw_borders = false,
+    draw_graph_borders = true,
+    draw_outline = false,
+    draw_shades = false,
+    use_xft = true,
+    font = 'DejaVu Sans Mono:size=12',
+    minimum_height = 1,
+    minimum_width = 5,
+    net_avg_samples = 2,
+    no_buffers = true,
+    out_to_console = false,
+    out_to_stderr = false,
+    extra_newline = false,
+    stippled_borders = 0,
+    update_interval = 1,
+    uppercase = false,
+    use_spacer = 'none',
+    show_graph_scale = false,
+    show_graph_range = false
+}
+
+conky.text = [[
+${color #666666}${font DejaVu Sans Mono:size=18}$nodename: ${execi 30 cat ~/.envname}
+VPN:     ${execi 30 ~/bin/vpn-check.sh vpn-check-address}
+VPN IP:  ${execi 30 ~/bin/get_vpn_ip.sh}
+enp0s3:  ${addr enp0s3}
+]]

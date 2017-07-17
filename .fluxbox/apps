@@ -1,0 +1,20 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=console) (class=URxvt)
+  [Dimensions]	{754 512}
+  [Position]	(CENTER)	{0 0}
+  [Deco]	{0x6}
+  [Maximized]	{no}
+  [Fullscreen]	{no}
+  [Layer]	{8}
+  [Alpha]	{255}
+[end]
+[app] (name=remmina) (class=Remmina)
+  [Dimensions]	{83% 94%}
+  [Position]	(UPPERLEFT)	{0% 2%}
+[end]
+[app] (name=bbpager) (class=Bbpager)
+  [Layer]	{12}
+[end]
