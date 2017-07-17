@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export DOTFILES_DIR="${HOME}/.dotfiles"
+
 if [ -z "${DOTFILES_DIR}" ]; then
     echo "DOTFILE_DIR not set, bailing out!"
     exit 1;
