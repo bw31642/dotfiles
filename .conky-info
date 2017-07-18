@@ -35,8 +35,8 @@ conky.config = {
 }
 
 conky.text = [[
-${color #666666}${font DejaVu Sans Mono:size=18}$nodename: ${execi 30 cat ~/.envname}
-VPN:     ${execi 30 ~/bin/vpn-check.sh vpn-check-address}
-VPN IP:  ${execi 30 ~/bin/get_vpn_ip.sh}
+${color #666666}${font DejaVu Sans Mono:size=18}$nodename: ${execi 30 bash -c "echo $CONKY_ENV_NAME" }
+VPN:     ${execi 30 ~/bin/host-check.sh $CONKY_VPN_IP }
+VPN IP:  ${execi 30 ~/bin/get_ip.sh $CONKY_VPN_IFACE }
 enp0s3:  ${addr enp0s3}
 ]]
