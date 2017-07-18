@@ -1,4 +1,4 @@
-
+[ -f $HOME/.env_vars ] && . $HOME/.env_vars
 exec > $HOME/.x.log 2>&1
 ##
 #dbus-launch --sh-syntax --exit-with-session
